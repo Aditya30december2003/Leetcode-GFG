@@ -20,25 +20,23 @@ public:
             count++;
             temp=temp->next;
         }
-        k=k%count; //if k value is greater then count
-        if(k==0){
-            return head;
-        }
-        count=count-k;
-        ListNode *current = head;
-        ListNode *prev = NULL;
-        while(count--){
-          prev=current;
-          current=current->next;
-        }
-        prev->next=NULL;
-        ListNode *tail = current;
-        while(tail->next!=NULL){
-            tail=tail->next;
-        }
-        tail->next=head;
-        head=current;
-      
-        return head;
+         temp=head;
+         vector<int>arr;
+         for(int i=0;i<count;i++){
+            arr.push_back(temp->val);
+            temp=temp->next;
+         }
+         k=k%count;
+         int breaker=count-k;
+         temp=head;
+         for(int i=breaker;i<count;i++){
+            temp->val=arr[i];
+            temp=temp->next;
+         }
+         for(int i=0;i<breaker;i++){
+            temp->val=arr[i];
+            temp=temp->next;
+         }
+    return head;
     }
 };
