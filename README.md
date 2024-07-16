@@ -46,4 +46,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0148-sort-list) |
+## Array
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
+## Hash Table
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
