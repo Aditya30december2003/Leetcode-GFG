@@ -11,29 +11,16 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        vector<int> arr;
-        ListNode *temp=head;
-        //in an array
-        while (temp) {
-            arr.push_back(temp->val);
-            temp = temp->next;
-        }
-
-        //swap to reverse
-        int start =0 , end=arr.size()-1;
-        while(start<end){
-            swap(arr[start] , arr[end]);
-            start++;
-            end--;
-        }
-
-        // put in the linked list
-        temp=head;
-        for(int i=0;i<arr.size();i++){
-            temp->val=arr[i];
-            temp=temp->next;
-        }
-        return head;
-
+       ListNode *prev = NULL;
+       ListNode *curr =head;
+       ListNode *future=NULL;
+       while(curr!=NULL){
+        future = curr->next;
+        curr->next=prev;
+        prev=curr;
+        curr=future;
+       }
+       head=prev; // curr is on null then prev will be the head
+       return head;
     }
 };
