@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0148-sort-list) |
+| [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 ## Merge Sort
 |  |
 | ------- |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 ## Matrix
 |  |
 | ------- |
@@ -96,4 +98,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Aditya30december2003/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
