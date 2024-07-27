@@ -1,23 +1,23 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        //sliding window
-        int start =0 , end=s.length()-1;
-        while(start<end){
-        // Move start forward if current character is not alphanumeric
-           while(start<end && !isalnum(s[start])){
-            start++;
-           }
-        // Move end backward if current character is not alphanumeric
-           while(start<end && !isalnum(s[end])){
-            end--;
-           }
-           if(tolower(s[start])!=tolower(s[end])){
-            return false;
-           }
-           start++;
-           end--;
+      string ans="";
+      int first=0 , second=0;
+      while(second<s.size()){
+        if(isalnum(s[second])){
+          ans.push_back(tolower(s[second]));
+          first++;
         }
-        return true;
+        second++;
+      }
+      int start=0 , end=ans.size()-1;
+      while(start<end){
+        if(ans[start]!=ans[end]){
+            return false;
+        }
+        start++;
+        end--;
+      }
+      return true;
     }
 };
