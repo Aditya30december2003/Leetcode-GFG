@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0061-rotate-list) |
+| [0088-merge-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Aditya30december2003/Leetcode/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0148-sort-list) |
 | [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 | [2887-sort-vowels-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2887-sort-vowels-in-a-string) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Aditya30december2003/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Aditya30december2003/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0088-merge-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/Aditya30december2003/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aditya30december2003/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Hash Table
