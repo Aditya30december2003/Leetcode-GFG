@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Aditya30december2003/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/Aditya30december2003/Leetcode/tree/master/2050-count-good-numbers) |
 ## Math
 |  |
 | ------- |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Aditya30december2003/Leetcode/tree/master/0231-power-of-two) |
 | [0371-sum-of-two-integers](https://github.com/Aditya30december2003/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aditya30december2003/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [2050-count-good-numbers](https://github.com/Aditya30december2003/Leetcode/tree/master/2050-count-good-numbers) |
 ## Divide and Conquer
 |  |
 | ------- |
