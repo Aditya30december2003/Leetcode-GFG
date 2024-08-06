@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0344-reverse-string) |
+| [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0232-implement-queue-using-stacks](https://github.com/Aditya30december2003/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Recursion
 |  |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0344-reverse-string) |
+| [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2887-sort-vowels-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2887-sort-vowels-in-a-string) |
 ## Sliding Window
@@ -225,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Aditya30december2003/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Design
 |  |
