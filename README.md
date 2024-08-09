@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Recursion
 |  |
 | ------- |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Aditya30december2003/Leetcode/tree/master/0217-contains-duplicate) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Aditya30december2003/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Hash Table
 |  |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Aditya30december2003/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2384-root-equals-sum-of-children](https://github.com/Aditya30december2003/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 ## Depth-First Search
 |  |
@@ -225,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Aditya30december2003/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2384-root-equals-sum-of-children](https://github.com/Aditya30december2003/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 ## Trie
 |  |
@@ -235,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Aditya30december2003/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search
 |  |
 | ------- |
@@ -274,4 +279,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Aditya30december2003/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
