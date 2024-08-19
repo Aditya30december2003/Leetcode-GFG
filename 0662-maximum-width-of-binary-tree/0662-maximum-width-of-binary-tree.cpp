@@ -14,29 +14,30 @@ public:
     typedef unsigned long long ll;
     int widthOfBinaryTree(TreeNode* root) {
         if(!root) return 0;
-        queue<pair<TreeNode* , ll>> q; // address and index
-        q.push({root , 0});
+
+        queue<pair<TreeNode* , ll>>q;
         ll maxWidth=0;
+        q.push({root , 0});
 
         while(!q.empty()){
-           int n=q.size();
-           ll l = q.front().second; // left most node
-           ll r = q.back().second;   // right most node
-           maxWidth=max(maxWidth , r-l+1);
+            ll l=q.front().second;
+            ll r=q.back().second;
+            maxWidth = max(maxWidth , r-l+1);
 
-
-           while(n--){
-            TreeNode *temp=q.front().first;
-            ll index = q.front().second;
-            q.pop();
-            if(temp->left){
+            int n=q.size();
+            while(n--){
+                TreeNode *temp=q.front().first;
+                ll index = q.front().second;
+                q.pop();
+                
+                if(temp->left)
                 q.push({temp->left , 2*index+1});
-            }
-            if(temp->right){
+
+                if(temp->right)
                 q.push({temp->right , 2*index+2});
             }
-           }
         }
+
         return maxWidth;
     }
 };
