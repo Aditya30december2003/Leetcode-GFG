@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Aditya30december2003/Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0229-majority-element-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0485-max-consecutive-ones](https://github.com/Aditya30december2003/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [1019-squares-of-a-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Aditya30december2003/Leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
