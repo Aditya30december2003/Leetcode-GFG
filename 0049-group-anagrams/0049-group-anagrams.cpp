@@ -12,8 +12,7 @@ public:
         }
 
         for(auto x : umap){
-            vector<string>temp=x.second;
-            ans.push_back(temp);
+            ans.push_back(x.second);
         }
         return ans;
 
