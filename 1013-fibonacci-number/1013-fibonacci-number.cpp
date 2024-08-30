@@ -1,20 +1,18 @@
 class Solution {
 public:
-    int fibSolve(int n , vector<int>&dp){
-        //base case
-        if(n<=1)
-        return n;
-        
-        //if value is already available
-        if(dp[n]!=-1)
-        return dp[n];
-
-        return dp[n] = fibSolve(n-1 , dp) + fibSolve(n-2 , dp);
-    }
     int fib(int n) {
         
-        vector<int>dp(n+1 , -1);
+        if(n<=1)
+        return n;
 
-        return fibSolve(n , dp);
+        int current ,  prev = 1 , prev2=0;
+
+        for(int i=2;i<=n;i++){
+            current = prev + prev2;
+            prev2=prev;
+            prev=current;
+        }
+
+        return current; 
     }
 };
