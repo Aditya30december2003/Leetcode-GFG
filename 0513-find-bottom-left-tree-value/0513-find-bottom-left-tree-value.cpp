@@ -32,7 +32,7 @@ public:
             }
           ans.push_back(arr);
         }
-        int a = ans[ans.size()-1][ans[0].size()-1];
+        int a = ans[ans.size()-1][0];
         return a;
     }
 };
