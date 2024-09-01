@@ -8,19 +8,18 @@
  */
 class Solution {
 private:
-bool check(vector<ListNode*> &visited , ListNode *current){
+   bool check(vector<ListNode*>&visited , ListNode* target){
     for(int i=0;i<visited.size();i++){
-        if(visited[i]==current){
-            return 1;
-        }
+        if(visited[i] == target)
+        return true;
     }
-    return 0;
-}
+    return false;
+   }
 public:
     bool hasCycle(ListNode *head) {
-        vector<ListNode*> visited;
+        vector<ListNode*>visited;
         ListNode *current=head;
-        while(current!=NULL){
+        while(current){
             if(check(visited , current)){
                 return true;
             }
