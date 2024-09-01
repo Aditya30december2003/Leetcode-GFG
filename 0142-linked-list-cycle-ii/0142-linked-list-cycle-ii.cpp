@@ -7,26 +7,18 @@
  * };
  */
 class Solution {
-private:
-bool check(vector<ListNode*>&visited , ListNode *current){
-    for(int i=0;i<visited.size();i++){
-        if(visited[i]==current){
-            return true;
-        }
-    }
-    return 0;
-}
 public:
     ListNode *detectCycle(ListNode *head) {
-       vector<ListNode*> visited;
-       ListNode *current=head;
-       while(current!=NULL){
-        if(check(visited , current)){
-         return current;
+        unordered_set<ListNode*>set;
+        ListNode* current=head;
+        while(current)
+        {
+            if(set.find(current) != set.end()){
+                return current;
+            }
+            set.insert(current);
+            current=current->next;
         }
-        visited.push_back(current);
-        current=current->next;
-       } 
-       return NULL;
+        return NULL;
     }
 };
