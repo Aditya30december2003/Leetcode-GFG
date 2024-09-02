@@ -7,25 +7,24 @@
  * };
  */
 class Solution {
-private:
-   bool check(vector<ListNode*>&visited , ListNode* target){
-    for(int i=0;i<visited.size();i++){
-        if(visited[i] == target)
-        return true;
-    }
-    return false;
-   }
 public:
+    bool check(ListNode *temp , vector<ListNode*>&visited){
+        for(int i=0;i<visited.size();i++){
+            if(visited[i] == temp)
+            return 1;
+        }
+        return 0;
+    }
     bool hasCycle(ListNode *head) {
         vector<ListNode*>visited;
-        ListNode *current=head;
-        while(current){
-            if(check(visited , current)){
-                return true;
-            }
-            visited.push_back(current);
-            current=current->next;
+        ListNode *temp=head;
+        while(temp){
+            if(check(temp , visited))
+            return 1;
+            
+            visited.push_back(temp);
+            temp=temp->next;
         }
-        return false;
+    return 0;
     }
 };
