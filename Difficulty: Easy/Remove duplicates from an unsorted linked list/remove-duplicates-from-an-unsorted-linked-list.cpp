@@ -38,24 +38,27 @@ struct Node {
 class Solution {
   public:
     Node *removeDuplicates(Node *head) {
-    
-     unordered_set<int>seen;
-     Node *node = head;
-     if(node==NULL)
-     return head;
-     else
-     seen.insert(node->data);
-    
-       while(node && node->next){
-         if(seen.find(node->next->data) != seen.end()){
-             node->next = node->next->next;
-         }
-         else{
-             seen.insert(node->next->data);
-             node=node->next;
-         }
-       }  
-     return head;
+       unordered_set<int>seen;
+       Node* temp=head;
+       
+       if(!head)
+       return head;
+       else
+       seen.insert(temp->data);
+       
+       
+       
+       while(temp && temp->next){
+          if(seen.find(temp->next->data) != seen.end()){
+              temp->next=temp->next->next;
+          } 
+          else{
+          seen.insert(temp->next->data);
+          temp=temp->next;
+          }
+       }
+       
+       return head;
     }
 };
 
