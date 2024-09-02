@@ -8,16 +8,22 @@
  */
 class Solution {
 public:
+    bool check(ListNode *temp , vector<ListNode*>&visited){
+        for(int i=0;i<visited.size();i++){
+            if(visited[i] == temp)
+            return 1;
+        }
+        return 0;
+    }
     ListNode *detectCycle(ListNode *head) {
-        unordered_set<ListNode*>set;
-        ListNode* current=head;
-        while(current)
-        {
-            if(set.find(current) != set.end()){
-                return current;
+        vector<ListNode*>visited;
+        ListNode *temp=head;
+        while(temp){
+            if(check(temp , visited)){
+                return temp;
             }
-            set.insert(current);
-            current=current->next;
+            visited.push_back(temp);
+            temp=temp->next;
         }
         return NULL;
     }
