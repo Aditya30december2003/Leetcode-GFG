@@ -8,29 +8,20 @@
  */
 class Solution {
 public:
-    ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
-        ListNode* tail = headA;
-        while (tail->next) {
-            tail = tail->next;
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        unordered_set<ListNode*>set;
+        ListNode *tempA=headA , *tempB = headB;
+        while(tempA){
+            set.insert(tempA);
+            tempA=tempA->next;
         }
-        tail->next = headA;
-        ListNode *fast = headB, *slow = headB;
 
-        while (fast && fast->next) {
-            slow = slow->next;
-            fast = fast->next->next;
+        while(tempB){
+            if(set.find(tempB) != set.end())
+            return tempB;
 
-            if (slow == fast) {
-                slow = headB;
-                while (slow != fast) {
-                    slow = slow->next;
-                    fast = fast->next;
-                }
-                tail->next = NULL;
-                return slow;
-            };
+            tempB=tempB->next;
         }
-        tail->next = NULL;
         return NULL;
     }
 };
