@@ -10,19 +10,19 @@
  * };
  */
 class Solution {
-private:
-TreeNode* BST(vector<int>&preorder , int &index , int lower , int upper ){
-  if(index==preorder.size() || preorder[index]<lower || preorder[index]>upper)
-  return NULL;
-  TreeNode *root = new TreeNode(preorder[index++]);
-  root->left = BST(preorder , index , lower , root->val);
-  root->right = BST(preorder , index , root->val , upper);
-
-  return root;
-}
 public:
+    TreeNode* Tree(vector<int>&preorder , int lower , int upper , int&index){
+        if(index==preorder.size() || preorder[index]<lower || preorder[index]>upper){
+            return NULL;
+        }
+        TreeNode *root=new TreeNode(preorder[index++]);
+        root->left = Tree(preorder , lower , root->val , index);
+        root->right = Tree(preorder , root->val , upper , index);
+
+        return root;
+    }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
         int index=0;
-        return BST(preorder , index , INT_MIN , INT_MAX);
+        return Tree(preorder , INT_MIN , INT_MAX , index);
     }
 };
