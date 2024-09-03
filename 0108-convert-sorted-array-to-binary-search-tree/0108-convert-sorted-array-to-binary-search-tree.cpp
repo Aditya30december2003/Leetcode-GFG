@@ -10,23 +10,21 @@
  * };
  */
 class Solution {
-private:
-TreeNode* insertion(vector<int>&nums , int start , int end){
-
-  if(start>end)
-  return NULL;
-  
-  int mid=start+(end-start)/2;
-  TreeNode* root = new TreeNode(nums[mid]);
-
-  root->left = insertion(nums , start , mid-1);
-
-  root->right = insertion(nums , mid+1 , end);
-
-  return root;
-}
 public:
+    TreeNode* Solve(vector<int>&nums , int start , int end){
+     if(start > end)
+     return NULL;
+
+     
+     int mid = start + (end-start)/2;
+     TreeNode *root = new TreeNode(nums[mid]);
+
+     root->left = Solve(nums , start , mid-1);
+     root->right= Solve(nums , mid+1 , end);
+
+     return root;
+    }
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-    return insertion(nums , 0 , nums.size()-1); 
-    } 
+       return Solve(nums , 0 , nums.size()-1);
+    }
 };
