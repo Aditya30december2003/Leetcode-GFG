@@ -12,10 +12,10 @@
 class Container {
 public:
     bool isBST;
-    int size, min, max;
+    int sum, min, max;
     Container(int data) {
         isBST = true;
-        size = data;
+        sum = data;
         min = max = data;
     }
 };
@@ -30,7 +30,7 @@ private:
 
         // Leaf node
         if (root->left == NULL && root->right == NULL) {
-            totalSize = std::max(totalSize, root->val);
+            totalSize = max(totalSize, root->val);
             return new Container(root->val);
         }
 
@@ -43,10 +43,10 @@ private:
             (root->right == NULL || rightSub->min > root->val)) {
 
             Container* head = new Container(root->val);
-            head->size += leftSub->size + rightSub->size;
+            head->sum += leftSub->sum + rightSub->sum;
             head->min = (root->left ? leftSub->min : root->val);
             head->max = (root->right ? rightSub->max : root->val);
-            totalSize = std::max(totalSize, head->size);
+            totalSize = std::max(totalSize, head->sum);
             return head;
         }
 
