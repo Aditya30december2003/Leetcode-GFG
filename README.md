@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/Aditya30december2003/Leetcode/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0367-valid-perfect-square](https://github.com/Aditya30december2003/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/Aditya30december2003/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1013-fibonacci-number](https://github.com/Aditya30december2003/Leetcode/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aditya30december2003/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Aditya30december2003/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0367-valid-perfect-square](https://github.com/Aditya30december2003/Leetcode/tree/master/0367-valid-perfect-square) |
 ## Backtracking
 |  |
 | ------- |
