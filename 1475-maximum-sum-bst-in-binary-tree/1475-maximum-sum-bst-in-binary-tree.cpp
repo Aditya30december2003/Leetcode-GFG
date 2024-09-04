@@ -22,20 +22,20 @@ public:
 
 class Solution {
 private:
-    Container* findSum(TreeNode *root, int &totalSize) {
-        // Base case: null node
+    Container* findSum(TreeNode *root, int &totalSum) {
+        
         if (!root) {
-            return new Container(0); // Return an empty valid BST
+            return new Container(0); 
         }
 
         // Leaf node
         if (root->left == NULL && root->right == NULL) {
-            totalSize = max(totalSize, root->val);
+            totalSum = max(totalSum, root->val);
             return new Container(root->val);
         }
 
-        Container *leftSub = findSum(root->left, totalSize);
-        Container *rightSub = findSum(root->right, totalSize);
+        Container *leftSub = findSum(root->left, totalSum);
+        Container *rightSub = findSum(root->right, totalSum);
 
         // Both children exist and need to check BST properties
         if (leftSub->isBST && rightSub->isBST &&
@@ -46,7 +46,7 @@ private:
             head->sum += leftSub->sum + rightSub->sum;
             head->min = (root->left ? leftSub->min : root->val);
             head->max = (root->right ? rightSub->max : root->val);
-            totalSize = std::max(totalSize, head->sum);
+            totalSum = max(totalSum, head->sum);
             return head;
         }
 
