@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0807-custom-sort-string) |
 | [1217-relative-sort-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1217-relative-sort-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aditya30december2003/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Aditya30december2003/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2427-first-letter-to-appear-twice](https://github.com/Aditya30december2003/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
 ## Matrix
 |  |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0807-custom-sort-string) |
 | [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Aditya30december2003/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2427-first-letter-to-appear-twice](https://github.com/Aditya30december2003/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
 | [2887-sort-vowels-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2887-sort-vowels-in-a-string) |
 ## Sliding Window
