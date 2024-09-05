@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/Aditya30december2003/Leetcode/tree/master/0443-string-compression) |
+| [0520-detect-capital](https://github.com/Aditya30december2003/Leetcode/tree/master/0520-detect-capital) |
 | [0807-custom-sort-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0807-custom-sort-string) |
 | [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0935-orderly-queue](https://github.com/Aditya30december2003/Leetcode/tree/master/0935-orderly-queue) |
