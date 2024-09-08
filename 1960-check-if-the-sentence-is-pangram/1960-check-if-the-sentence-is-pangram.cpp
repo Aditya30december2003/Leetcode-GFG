@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
-        vector<int>ch(26 , 0);
+        vector<char>ch(26 , 0);
 
         for(int i=0;i<sentence.size();i++){
             ch[sentence[i]-'a']++;
