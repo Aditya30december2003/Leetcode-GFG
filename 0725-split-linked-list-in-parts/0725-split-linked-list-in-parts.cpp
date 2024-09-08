@@ -29,12 +29,11 @@ public:
             ListNode* partHead = temp;
             int currentPartSize = partSize + (i < extraParts ? 1 : 0);
             
-            // Move to the end of the current part
+            
             for (int j = 1; j < currentPartSize; ++j) {
                 temp = temp->next;
             }
             
-            // Split the list
             ListNode* nextPartHead = temp->next;
             temp->next = nullptr;
             temp = nextPartHead;
