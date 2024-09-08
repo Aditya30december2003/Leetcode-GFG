@@ -1,26 +1,32 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        int i=0 , n=s.size();
         string ans="";
-        while(i<n){
-            string temp="";
-            while(s[i]==' ' && i<n){   //while because there can be multiple spaces
-                i++;
-            }
-            while(s[i]!=' '&&i<n){
-            temp+=s[i];
+        stack<string>stk;
+        
+        int i=0;
+        while(i<s.size()){
+         string word="";
+
+         while(i<s.size() && s[i]!=' '){
+            word+=s[i];
             i++;
+         }
+
+
+         if(!word.empty())
+         stk.push(word);
+         i++;
+        }
+
+        while(!stk.empty()){
+           ans+=stk.top() ;
+            stk.pop();
+            if (!stk.empty()) {
+                ans += " ";
             }
-        if(temp.size()>0){  //if temp exist krta hai to
-          if(ans.size()==0){
-            ans=temp;
-          }
-          else{
-            ans =temp+' '+ans;  // whole answer is in this line!!!
-          }
         }
-        }
+
         return ans;
     }
-}; 
+};
