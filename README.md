@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0725-split-linked-list-in-parts](https://github.com/Aditya30december2003/Leetcode/tree/master/0725-split-linked-list-in-parts) |
 | [0908-middle-of-the-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aditya30december2003/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
