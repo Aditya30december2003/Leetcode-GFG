@@ -17,7 +17,6 @@ public:
         if(countCap==1 && isupper(word[0]))
         return true;
 
-
         return false;
     }
 };
