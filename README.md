@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/Aditya30december2003/Leetcode/tree/master/0443-string-compression) |
 | [0520-detect-capital](https://github.com/Aditya30december2003/Leetcode/tree/master/0520-detect-capital) |
+| [0686-repeated-string-match](https://github.com/Aditya30december2003/Leetcode/tree/master/0686-repeated-string-match) |
 | [0807-custom-sort-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0807-custom-sort-string) |
 | [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0935-orderly-queue](https://github.com/Aditya30december2003/Leetcode/tree/master/0935-orderly-queue) |
@@ -477,4 +478,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0686-repeated-string-match](https://github.com/Aditya30december2003/Leetcode/tree/master/0686-repeated-string-match) |
 <!---LeetCode Topics End-->
