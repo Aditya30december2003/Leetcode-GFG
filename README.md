@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aditya30december2003/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2411-spiral-matrix-iv](https://github.com/Aditya30december2003/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Aditya30december2003/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Aditya30december2003/Leetcode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Aditya30december2003/Leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Aditya30december2003/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2411-spiral-matrix-iv](https://github.com/Aditya30december2003/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Aditya30december2003/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Hash Table
 |  |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Aditya30december2003/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Aditya30december2003/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [2411-spiral-matrix-iv](https://github.com/Aditya30december2003/Leetcode/tree/master/2411-spiral-matrix-iv) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -430,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Aditya30december2003/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2411-spiral-matrix-iv](https://github.com/Aditya30december2003/Leetcode/tree/master/2411-spiral-matrix-iv) |
 ## Design
 |  |
 | ------- |
