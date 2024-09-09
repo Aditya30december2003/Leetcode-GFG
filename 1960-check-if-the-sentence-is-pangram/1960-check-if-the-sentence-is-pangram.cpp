@@ -1,14 +1,14 @@
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
-        vector<char>ch(26 , 0);
+        vector<char>arr(26 , 0);
 
         for(int i=0;i<sentence.size();i++){
-            ch[sentence[i]-'a']++;
+            arr[sentence[i]-'a']++;
         }
-
-        for(int i=0;i<ch.size();i++){
-            if(ch[i]==0)
+        
+        for(int i=0;i<arr.size();i++){
+            if(arr[i]==0)
             return false;
         }
 
