@@ -1,17 +1,15 @@
 class Solution {
 public:
-    void Con(vector<string>&word , string&result){
-        for(int i=0;i<word.size();i++){
-            result+=word[i];
-        }
+    void Conc(vector<string>& word , string&s){
+     for(int i=0;i<word.size();i++){
+        s+=word[i];
+     }
     }
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
-        string result1="";
-        string result2="";
+        string s1="" , s2="";
+        Conc(word1 , s1);
+        Conc(word2 , s2);
 
-        Con(word1 , result1);
-        Con(word2 , result2);
-
-        return result1 == result2;
+        return s1==s2;
     }
 };
