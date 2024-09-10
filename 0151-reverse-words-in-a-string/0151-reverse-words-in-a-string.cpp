@@ -5,7 +5,6 @@ public:
         stack<string>stk;
 
         int i=0;
-
         while(i<s.size()){
             string word="";
 
@@ -13,22 +12,20 @@ public:
                 word+=s[i];
                 i++;
             }
+            
+            if(!word.empty())
+            stk.push(word);
 
-            if(!word.empty()){
-                stk.push(word);
-            }
             i++;
         }
+        while(!stk.empty())
+        {
+            ans+=stk.top();
+            stk.pop();
 
-        while(!stk.empty()){
-           ans+=stk.top();
-           stk.pop();
-
-           if(!stk.empty()){
+            if(!stk.empty())
             ans+=" ";
-           }
         }
-
-        return ans;
+    return ans;
     }
 };
