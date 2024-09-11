@@ -1,37 +1,39 @@
 class Solution {
 public:
-    int Solve(int a , int b , string op){
-     int result;
-     if(op=="+")
-     result=a+b;
+    int Solve(int a , int b , string str){
+        int result;
+        if(str=="+"){
+            result=a+b;
+        }
+        else if(str=="-"){
+            result=a-b;
+        }
+        else if(str=="*"){
+            result=a*b;
+        }
+        else if(str=="/"){
+            result=a/b;
+        }
 
-     else if(op=="-")
-     result=a-b;
-
-     else if(op=="*")
-     result=a*b;
-
-     else
-     result=a/b;
-
-     return result;
+        return result;
     }
     int evalRPN(vector<string>& tokens) {
         stack<int>stk;
 
-        for(string &token : tokens){
-            if(token=="+" || token=="-" || token=="*" || token=="/"){
-                
-                int b = stk.top();stk.pop();
-                int a = stk.top();stk.pop();
+        for(string &st:tokens){
+            if(st=="+" || st=="-" || st=="*" || st=="/"){
 
-                int result = Solve(a , b , token);
+              int b = stk.top();stk.pop();
+              int a = stk.top();stk.pop();
 
-                stk.push(result);
+              int result = Solve(a , b , st);
+
+              stk.push(result);
             }else{
-                stk.push(stoi(token));
+              stk.push(stoi(st));
             }
         }
+
         return stk.top();
     }
 };
