@@ -4,23 +4,21 @@ public:
         stack<char>stk;
         int i=0;
         while(i<s.size()){
-            if(!stk.empty() && stk.top()==s[i]){
-                stk.pop();
-            }
-            else
-            stk.push(s[i]);
-            
-            i++;
+        if(!stk.empty() && stk.top()==s[i]){
+            stk.pop();
         }
+        else{
+         stk.push(s[i]);
+        }
+        i++;
+        }
+
         string ans="";
         while(!stk.empty()){
             ans+=stk.top();
             stk.pop();
         }
-
-        if(!ans.empty())
         reverse(ans.begin() , ans.end());
-
 
         return ans;
     }
