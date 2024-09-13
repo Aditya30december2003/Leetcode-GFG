@@ -114,18 +114,16 @@ struct Node
          10
       /      \ 
    20       30 */
-
 int countLeaves(Node* root)
 {
-  if(!root)
-  return 0;
-  int count=0;
+  if(!root) return 0;
   
+  int sum=0;
   if(!root->left && !root->right)
-  count+=1;
- 
-  count+=countLeaves(root->left);
-  count+=countLeaves(root->right);
+  sum++;
+   
+ sum+= countLeaves(root->right);
+ sum+=countLeaves(root->left);
   
-  return count;
+  return sum;
 }
