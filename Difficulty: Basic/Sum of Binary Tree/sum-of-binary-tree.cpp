@@ -84,12 +84,7 @@ struct Node
 // of the binary tree
 long int sumBT(Node* root)
 {
-    if(!root)
-    return 0;
+    if(!root) return 0;
     
-    int sum = root->key;
-    sum+=sumBT(root->left);
-    sum+=sumBT(root->right);
-    
-    return sum;
+    return root->key+sumBT(root->left)+sumBT(root->right);
 }
