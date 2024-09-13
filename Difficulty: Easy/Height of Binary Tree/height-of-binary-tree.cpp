@@ -82,6 +82,7 @@ Node* buildTree(string str)
 
 // } Driver Code Ends
 //User function template for C++
+
 /*
 struct Node
 {
@@ -99,10 +100,9 @@ class Solution{
     public:
     //Function to find the height of a binary tree.
     int height(struct Node* node){
-        if(!node)
-        return 0;
-        
-        return 1+max(height(node->left) , height(node->right));
+       if(!node) return 0;
+       
+       return 1+max(height(node->left) , height(node->right));
     }
 };
 
