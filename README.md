@@ -528,4 +528,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/Aditya30december2003/Leetcode/tree/master/0937-online-stock-span) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Aditya30december2003/Leetcode/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
