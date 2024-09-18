@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Aditya30december2003/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1666-make-the-string-great](https://github.com/Aditya30december2003/Leetcode/tree/master/1666-make-the-string-great) |
+| [2470-removing-stars-from-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Recursion
 |  |
 | ------- |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1823-determine-if-string-halves-are-alike](https://github.com/Aditya30december2003/Leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Aditya30december2003/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2427-first-letter-to-appear-twice](https://github.com/Aditya30december2003/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
+| [2470-removing-stars-from-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2887-sort-vowels-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2887-sort-vowels-in-a-string) |
 ## Sliding Window
 |  |
@@ -479,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/Aditya30december2003/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Aditya30december2003/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2411-spiral-matrix-iv](https://github.com/Aditya30december2003/Leetcode/tree/master/2411-spiral-matrix-iv) |
+| [2470-removing-stars-from-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Design
 |  |
 | ------- |
