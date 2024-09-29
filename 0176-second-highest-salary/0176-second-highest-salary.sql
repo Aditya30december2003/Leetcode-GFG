@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
 select 
 IFNULL(
-   (select salary from Employee order by salary desc LIMIT 1,1) , NULL 
+   (select distinct salary from Employee order by salary desc LIMIT 1,1) , NULL 
 ) as SecondHighestSalary 
