@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0981-delete-columns-to-make-sorted](https://github.com/Aditya30december2003/Leetcode/tree/master/0981-delete-columns-to-make-sorted) |
 | [1019-squares-of-a-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1127-last-stone-weight](https://github.com/Aditya30december2003/Leetcode/tree/master/1127-last-stone-weight) |
 | [1217-relative-sort-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/Aditya30december2003/Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Aditya30december2003/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0264-ugly-number-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0264-ugly-number-ii) |
+| [1127-last-stone-weight](https://github.com/Aditya30december2003/Leetcode/tree/master/1127-last-stone-weight) |
 ## Counting Sort
 |  |
 | ------- |
