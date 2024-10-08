@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-sort-array-by-parity](https://github.com/Aditya30december2003/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/Aditya30december2003/Leetcode/tree/master/1894-merge-strings-alternately) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Aditya30december2003/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Stack
 |  |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Aditya30december2003/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1666-make-the-string-great](https://github.com/Aditya30december2003/Leetcode/tree/master/1666-make-the-string-great) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Aditya30december2003/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2470-removing-stars-from-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Recursion
 |  |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1823-determine-if-string-halves-are-alike](https://github.com/Aditya30december2003/Leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1894-merge-strings-alternately](https://github.com/Aditya30december2003/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Aditya30december2003/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Aditya30december2003/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2427-first-letter-to-appear-twice](https://github.com/Aditya30december2003/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
 | [2470-removing-stars-from-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2887-sort-vowels-in-a-string](https://github.com/Aditya30december2003/Leetcode/tree/master/2887-sort-vowels-in-a-string) |
@@ -485,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0011-container-with-most-water) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Aditya30december2003/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Queue
 |  |
 | ------- |
