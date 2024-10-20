@@ -26,8 +26,8 @@ public:
         int newIdx=len-k;
 
         temp=head;
-        newIdx--;
-        while(newIdx--){
+        
+        while(--newIdx){
             temp=temp->next;
         }
         ListNode* newHead=temp->next;
