@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/Aditya30december2003/Leetcode/tree/master/0725-split-linked-list-in-parts) |
+| [0838-design-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aditya30december2003/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
@@ -538,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/Aditya30december2003/Leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/Aditya30december2003/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0838-design-linked-list](https://github.com/Aditya30december2003/Leetcode/tree/master/0838-design-linked-list) |
 | [0937-online-stock-span](https://github.com/Aditya30december2003/Leetcode/tree/master/0937-online-stock-span) |
 | [1708-design-parking-system](https://github.com/Aditya30december2003/Leetcode/tree/master/1708-design-parking-system) |
 ## Binary Search Tree
