@@ -11,33 +11,22 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if (!head || !head->next) return head;
-        stack<ListNode*>stk;
+        map<int , int>umap;
         ListNode* temp=head;
-        
-
         while(temp){
-            if (!stk.empty() && stk.top()->val == temp->val) {
-                // Skip all nodes with the same value
-                while (temp && temp->val == stk.top()->val) {
-                    temp = temp->next;
-                }
-                // Remove the top element since it was a duplicate
-                stk.pop();
-            } else {
-                // Only push unique values onto the stack
-                stk.push(temp);
-                temp = temp->next;
+            umap[temp->val]++;
+            temp=temp->next;
+        }
+
+        ListNode* ans=new ListNode(-1);
+        ListNode* tem=ans;
+        
+        for(auto&x:umap){
+            if(x.second==1){
+            tem->next=new ListNode(x.first);
+            tem=tem->next;
             }
         }
-        if(stk.empty())return NULL;
-
-        ListNode *newHead=NULL;
-        while(!stk.empty()){
-            stk.top()->next=newHead;
-            newHead=stk.top();
-            stk.pop();
-        }
-        return newHead;
-    }
+        return ans->next;
+    } 
 };
