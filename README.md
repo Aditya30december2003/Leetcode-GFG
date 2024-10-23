@@ -379,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1035-cousins-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1035-cousins-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya30december2003/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1035-cousins-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -475,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Aditya30december2003/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1035-cousins-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya30december2003/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Aditya30december2003/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
