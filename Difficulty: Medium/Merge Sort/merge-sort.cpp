@@ -26,6 +26,7 @@ class Solution
          int n1=m-l+1;
          int n2=r-m;
          int left[n1] , right[n2];
+         
          for(int i=0;i<n1;i++)left[i]=arr[l+i];
          for(int i=0;i<n2;i++)right[i]=arr[m+1+i];
          
@@ -41,13 +42,12 @@ class Solution
     public:
     void mergeSort(int arr[], int l, int r)
     {
-        //code here
+        //code her
         if(l<r){
             int mid=l+(r-l)/2;
             
             mergeSort(arr , l , mid);
-            mergeSort(arr , mid+1 ,r);
-            
+            mergeSort(arr , mid+1 , r);
             merge(arr , l , mid , r);
         }
     }
