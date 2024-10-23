@@ -11,14 +11,13 @@
  */
 class Solution {
 public:
-    TreeNode* Tree(vector<int>&preorder , int lower , int upper , int&index){
-        if(index==preorder.size() || preorder[index]<lower || preorder[index]>upper){
-            return NULL;
-        }
-        TreeNode *root=new TreeNode(preorder[index++]);
-        root->left = Tree(preorder , lower , root->val , index);
-        root->right = Tree(preorder , root->val , upper , index);
+    TreeNode* Tree(vector<int>& preorder , int low , int upper , int&index){
+        if(index==preorder.size()||preorder[index]<low||preorder[index]>upper)
+        return NULL;
 
+        TreeNode *root=new TreeNode(preorder[index++]);
+        root->left=Tree(preorder , low , root->val , index);
+        root->right=Tree(preorder , root->val , upper , index);
         return root;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
