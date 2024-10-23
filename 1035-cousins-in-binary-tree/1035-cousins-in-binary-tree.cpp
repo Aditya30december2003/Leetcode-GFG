@@ -14,21 +14,19 @@ public:
     bool isCousins(TreeNode* root, int x, int y) {
         queue<TreeNode*>q;
         q.push(root);
-
         while(!q.empty()){
             int n=q.size();
-            bool l1=false , l2=false; // checking if on the same level
+            bool l1=false , l2=false;
             while(n--){
                 TreeNode* temp=q.front();
                 q.pop();
 
-                if(temp->val==x) l1=true;
-                if(temp->val==y) l2=true;
+                if(temp->val==x)l1=true;
+                if(temp->val==y)l2=true;
 
-                //now check if same parents
                 if(temp->left && temp->right){
-                    if((temp->left->val==x && temp->right->val==y) || (temp->left->val==y && temp->right->val==x))
-                    return false;
+                if((temp->left->val==x && temp->right->val==y)||(temp->left->val==y && temp->right->val==x))
+                return false;
                 }
 
                 if(temp->left)
@@ -37,11 +35,9 @@ public:
                 if(temp->right)
                 q.push(temp->right);
             }
-        if(l1&&l2)
-        return true;
+            if(l1&&l2)
+            return true;
         }
-        
-
         return false;
     }
 };
