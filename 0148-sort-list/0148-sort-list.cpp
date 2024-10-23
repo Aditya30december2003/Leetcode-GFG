@@ -11,6 +11,7 @@
 class Solution {
 public:
     ListNode* merge(ListNode* l1 , ListNode* l2){
+        if(!l1 && !l2)return NULL;
         if(!l1)return l2;
         if(!l2)return l1;
 
@@ -23,12 +24,9 @@ public:
             return l2;
         }
     }
-    ListNode* getMiddle(ListNode* head){
+    ListNode *getMid(ListNode* head){
         if(!head || !head->next)return head;
-
-        ListNode* slow=head;
-        ListNode* fast=head->next;
-
+        ListNode* slow=head , *fast=head->next;
         while(fast && fast->next){
             slow=slow->next;
             fast=fast->next->next;
@@ -36,17 +34,14 @@ public:
         return slow;
     }
     ListNode* sortList(ListNode* head) {
-        //merge sort
-        if (!head || !head->next) {
-            return head;
-        }
-        ListNode* middle=getMiddle(head);
-        ListNode* middleNext=middle->next;
+        if(!head || !head->next) return head;
+        ListNode* mid=getMid(head);
+        ListNode* newHead=mid->next;
+        mid->next=NULL;
 
-        middle->next=NULL;
+        ListNode* leftSort=sortList(head);
+        ListNode* rightSort=sortList(newHead);
 
-        ListNode* left=sortList(head);
-        ListNode* right=sortList(middleNext);
-        return merge(left , right);
+        return merge(leftSort , rightSort);
     }
 };
