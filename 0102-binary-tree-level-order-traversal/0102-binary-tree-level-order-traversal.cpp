@@ -21,14 +21,15 @@ public:
             int n=q.size();
             vector<int>arr;
             while(n--){
-             TreeNode* temp=q.front();
-             arr.push_back(temp->val);
-             q.pop();
+                TreeNode* temp=q.front();
+                arr.push_back(temp->val);
+                q.pop();
 
-             if(temp->left)
-             q.push(temp->left);
-             if(temp->right)
-             q.push(temp->right);
+                if(temp->left)
+                q.push(temp->left);
+
+                if(temp->right)
+                q.push(temp->right);
             }
             ans.push_back(arr);
         }
