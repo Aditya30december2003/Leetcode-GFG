@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Aditya30december2003/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Aditya30december2003/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Aditya30december2003/Leetcode/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/Aditya30december2003/Leetcode/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/Aditya30december2003/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Aditya30december2003/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Aditya30december2003/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Aditya30december2003/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Aditya30december2003/Leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Aditya30december2003/Leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Aditya30december2003/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Aditya30december2003/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/Aditya30december2003/Leetcode/tree/master/0118-pascals-triangle) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/Aditya30december2003/Leetcode/tree/master/0055-jump-game) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Aditya30december2003/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3195-separate-black-and-white-balls](https://github.com/Aditya30december2003/Leetcode/tree/master/3195-separate-black-and-white-balls) |
