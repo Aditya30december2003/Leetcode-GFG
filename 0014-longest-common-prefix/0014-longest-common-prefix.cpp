@@ -1,25 +1,26 @@
 class Solution {
 public:
-    string Solve(string s1 , string s2){
+    string common(string s1 , string s2){
+        int i=0 , j=0;
         string ans="";
-        int i=0;
-        while(i<s1.size() && i<s2.size()){
-            if(s1[i]==s2[i])
-            ans+=s1[i];
-            else
-            break;
-
+        while(i<s1.size() && j<s2.size()){
+            if(s1[i]!=s2[j]){
+                break;
+            }
+            else{
+             ans+=s1[i];
+            }
             i++;
+            j++;
         }
         return ans;
     }
     string longestCommonPrefix(vector<string>& strs) {
-        
-        string str = strs[0];
-        for(int i=1;i<strs.size();i++){
-            str = Solve(str , strs[i]);
-        }
+        string ans=strs[0];
 
-        return str;
+        for(int i=1;i<strs.size();i++){
+           ans=common(strs[i] , ans);
+        }
+        return ans;
     }
 };
