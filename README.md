@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Aditya30december2003/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Aditya30december2003/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Aditya30december2003/Leetcode/tree/master/0048-rotate-image) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Aditya30december2003/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Aditya30december2003/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Aditya30december2003/Leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Aditya30december2003/Leetcode/tree/master/0070-climbing-stairs) |
@@ -533,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aditya30december2003/Leetcode/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Aditya30december2003/Leetcode/tree/master/0055-jump-game) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya30december2003/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Aditya30december2003/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
