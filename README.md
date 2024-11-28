@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/Aditya30december2003/Leetcode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/Aditya30december2003/Leetcode/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Aditya30december2003/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/Aditya30december2003/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0935-orderly-queue](https://github.com/Aditya30december2003/Leetcode/tree/master/0935-orderly-queue) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Aditya30december2003/Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya30december2003/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0807-custom-sort-string](https://github.com/Aditya30december2003/Leetcode/tree/master/0807-custom-sort-string) |
 | [0935-orderly-queue](https://github.com/Aditya30december2003/Leetcode/tree/master/0935-orderly-queue) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Aditya30december2003/Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/Aditya30december2003/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Aditya30december2003/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya30december2003/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Aditya30december2003/Leetcode/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/Aditya30december2003/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya30december2003/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/Aditya30december2003/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya30december2003/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -306,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/Aditya30december2003/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Aditya30december2003/Leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Aditya30december2003/Leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Aditya30december2003/Leetcode/tree/master/0371-sum-of-two-integers) |
@@ -524,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Aditya30december2003/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aditya30december2003/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/Aditya30december2003/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Aditya30december2003/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Aditya30december2003/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/Aditya30december2003/Leetcode/tree/master/0367-valid-perfect-square) |
